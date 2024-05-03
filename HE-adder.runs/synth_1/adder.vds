@@ -1,0 +1,207 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Oct 15 14:12:03 2023
+# Process ID: 9298
+# Current directory: /home/pruthvi/HE-adder/HE-adder.runs/synth_1
+# Command line: vivado -log adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder.tcl
+# Log file: /home/pruthvi/HE-adder/HE-adder.runs/synth_1/adder.vds
+# Journal file: /home/pruthvi/HE-adder/HE-adder.runs/synth_1/vivado.jou
+# Running On: pruthvi, OS: Linux, CPU Frequency: 3436.438 MHz, CPU Physical cores: 32, Host memory: 32733 MB
+#-----------------------------------------------------------
+source adder.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/pruthvi/HE-adder/HE-adder.srcs/utils_1/imports/synth_1/newadd.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/pruthvi/HE-adder/HE-adder.srcs/utils_1/imports/synth_1/newadd.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top adder -part xc7a15tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9322
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1672.418 ; gain = 385.738 ; free physical = 19323 ; free virtual = 22747
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'adder' [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:23]
+WARNING: [Synth 8-639] system function call 'urandom' not supported [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:37]
+WARNING: [Synth 8-639] system function call 'urandom' not supported [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:38]
+WARNING: [Synth 8-639] system function call 'urandom' not supported [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:39]
+WARNING: [Synth 8-639] system function call 'urandom' not supported [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:40]
+WARNING: [Synth 8-639] system function call 'urandom' not supported [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:42]
+WARNING: [Synth 8-639] system function call 'urandom' not supported [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:43]
+WARNING: [Synth 8-639] system function call 'urandom' not supported [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:44]
+WARNING: [Synth 8-639] system function call 'urandom' not supported [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:45]
+WARNING: [Synth 8-639] system function call 'urandom' not supported [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:46]
+INFO: [Synth 8-251] r1 = 1, r2 = 1, r3 = 1, r4 = 1 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:63]
+INFO: [Synth 8-251] q1 = 10000, q2 = 10000, q3 = 10000, q4 = 10000 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:64]
+INFO: [Synth 8-251] a0 = 1, a1 = 1, b0 = 0, b1 = 0 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:65]
+INFO: [Synth 8-251] p = 10000 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:66]
+INFO: [Synth 8-251] c1 = 24835 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:67]
+INFO: [Synth 8-251] c2 = 24835 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:68]
+INFO: [Synth 8-251] c3 = 24834 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:69]
+INFO: [Synth 8-251] c4 = 24834 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:70]
+INFO: [Synth 8-251] z0_add = 16901 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:71]
+INFO: [Synth 8-251] z0_carry = 25862 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:72]
+INFO: [Synth 8-251] z1_add = 9995 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:73]
+INFO: [Synth 8-251] z1_carry = 27172 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:74]
+INFO: [Synth 8-251] z0 = 1 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:75]
+INFO: [Synth 8-251] z1 = 1 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:76]
+INFO: [Synth 8-251] z2 = 0 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:77]
+INFO: [Synth 8-251] z2 = 0, z1 = 1, z0 = 1 [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (0#1) [/home/pruthvi/HE-adder/HE-adder.srcs/sources_1/new/adder.v:23]
+WARNING: [Synth 8-3330] design adder has an empty top module
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1737.387 ; gain = 450.707 ; free physical = 19237 ; free virtual = 22663
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1752.230 ; gain = 465.551 ; free physical = 19237 ; free virtual = 22663
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a15tcpg236-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a15tcpg236-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1760.234 ; gain = 473.555 ; free physical = 19237 ; free virtual = 22662
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1769.141 ; gain = 482.461 ; free physical = 19229 ; free virtual = 22655
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 45 (col length:60)
+BRAMs: 50 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design adder has an empty top module
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19125 ; free virtual = 22554
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19122 ; free virtual = 22550
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1882.578 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1882.586 ; gain = 595.898 ; free physical = 19117 ; free virtual = 22545
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1882.586 ; gain = 0.000 ; free physical = 19396 ; free virtual = 22824
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1973.172 ; gain = 0.000 ; free physical = 19310 ; free virtual = 22738
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5d626ab8
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1973.172 ; gain = 694.430 ; free physical = 19310 ; free virtual = 22738
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1271.633; main = 1271.633; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 1973.176; main = 1973.176; forked = 0.000
+INFO: [Common 17-1381] The checkpoint '/home/pruthvi/HE-adder/HE-adder.runs/synth_1/adder.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file adder_utilization_synth.rpt -pb adder_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 15 14:12:14 2023...

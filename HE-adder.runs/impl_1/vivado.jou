@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Oct 15 14:12:45 2023
+# Process ID: 9520
+# Current directory: /home/pruthvi/HE-adder/HE-adder.runs/impl_1
+# Command line: vivado -log adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source adder.tcl -notrace
+# Log file: /home/pruthvi/HE-adder/HE-adder.runs/impl_1/adder.vdi
+# Journal file: /home/pruthvi/HE-adder/HE-adder.runs/impl_1/vivado.jou
+# Running On: pruthvi, OS: Linux, CPU Frequency: 3252.807 MHz, CPU Physical cores: 32, Host memory: 32733 MB
+#-----------------------------------------------------------
+source adder.tcl -notrace
